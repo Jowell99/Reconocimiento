@@ -62,8 +62,8 @@
 
     <Button
         android:id="@+id/btText"
-        android:layout_width="0dp"
-        android:layout_height="55dp"
+        android:layout_width="116dp"
+        android:layout_height="58dp"
         android:layout_margin="10dp"
         android:onClick="OCRfx"
         android:text="OCR"
@@ -73,15 +73,26 @@
 
     <Button
         android:id="@+id/btFace"
-        android:layout_width="0dp"
-        android:layout_height="55dp"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
         android:layout_margin="10dp"
         android:onClick="Rostrosfx"
         android:text="Rostros"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/btText"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintLeft_toRightOf="@id/btText" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="PersonalizedModel"
+        android:text="Recono"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btFace" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
