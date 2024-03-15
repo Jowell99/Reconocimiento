@@ -1,7 +1,5 @@
-![image](https://github.com/Jowell99/Reconocimiento/assets/142686187/dcba735d-6f8b-48b0-b68e-7e160570816d)
-![image](https://github.com/Jowell99/Reconocimiento/assets/142686187/5195a355-8b90-4128-afa0-630b75f6d7e4)
-![image](https://github.com/Jowell99/Reconocimiento/assets/142686187/2d80e0da-a4a5-4dfe-ac42-ed69c4a969bd)
-![image](https://github.com/Jowell99/Reconocimiento/assets/142686187/1f822300-2415-4776-b1c5-7f5f206714fb)
-
-
-
+![Kevin](https://github.com/Jowell99/Reconocimiento/assets/142686187/61b1fe14-297a-4aaf-baa1-0780bb6c9183)
+![Julius](https://github.com/Jowell99/Reconocimiento/assets/142686187/fe553d69-6fca-4d16-a34b-7fdf8385f00b)
+![Linley](https://github.com/Jowell99/Reconocimiento/assets/142686187/72dbfca5-18cd-41bd-a4ac-3a7a78ea4e4c)
+![Wladimir](https://github.com/Jowell99/Reconocimiento/assets/142686187/f9eb1ef7-9abe-4409-9a95-afaaec3458d8)
+![Aguirre](https://github.com/Jowell99/Reconocimiento/assets/142686187/1046b559-b765-4c21-aeb8-c444946c021c)
