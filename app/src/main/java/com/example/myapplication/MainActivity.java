@@ -25,6 +25,7 @@ import java.util.List;
 
 import com.example.myapplication.ml.Modeloflowers;
 import com.example.myapplication.ml.Personas;
+import com.example.myapplication.ml.Telema;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.odml.image.MlImage;
@@ -184,11 +185,12 @@ public class MainActivity
 
     public void PersonalizedModel(View v){
         try {
-            String[] etiquetas = {"Kevin", "Sol", "Julian"};
-            Personas model = Personas.newInstance(getApplicationContext());
+            String[] etiquetas = {"Adonis", "Elian", "Arturo", "Leandro", "Caiza", "Kevin", "Holger", "Chimbo",
+                    "Domenica", "Jhon", "Jorge", "Julius", "Linley", "Macas", "Mera", "Gabriela", "Solange", "Tenecota", "Wladimir"};
+            Telema model = Telema.newInstance(getApplicationContext());
             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
             inputFeature0.loadBuffer(convertirImagenATensorBuffer(mSelectedImage));
-            Personas.Outputs outputs = model.process(inputFeature0);
+            Telema.Outputs outputs = model.process(inputFeature0);
             TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
             txtResults.setText(obtenerEtiquetayProbabilidad(etiquetas, outputFeature0.getFloatArray()));
             model.close();
